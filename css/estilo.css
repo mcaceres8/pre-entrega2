@@ -1,94 +1,109 @@
-*{
+* {
     margin: 0;
     padding: 0;
-} 
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
 
-body{
-    background-color: #B9FAF8; 
-    font-family:'Rubik', sans-serif;
-    background-image: url("../img/pexels-rodion-kutsaiev-7911758.jpg");
+body {
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    font-family: 'Rubik', sans-serif;
+    /* background-image: url("../img/pexels-rodion-kutsaiev-7911758.jpg"); */
 
 }
 
-.container{
+.container {
     justify-content: flex-start;
 }
+
 /* BOX MODELING */
 
-.contenedor { 
+.contenedor {
     border: 4px black double;
     margin: 10px;
     padding: 0px;
 
 }
-h1{
+
+h1 {
     text-align: center;
     color: #006494;
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 50px;
 }
 
-.bienvenido{ 
-    color: aqua;
+.bienvenido {
+    color: black;
     text-align: center;
-    border: 4px none;
+    border: 4px solid black;
     margin: 10px;
     padding: 0px;
+    width: 200px;
+    height: 50px;
+
 }
-.titulo{
+
+/* GRADIENTE */
+
+.cajaA {
+    background: linear-gradient(to right, #CCCCFF, #6495ED);
+
+
+}
+
+.titulo {
     margin: 10px;
     text-align: center;
     color: lavenderblush;
 }
 
-.lead{
+
+.lead {
     margin: 20px;
     text-align: center;
 }
 
-.booksie{
+.booksie {
     filter: sepia(90%);
 }
 
-.booksie:hover{
-    
+.booksie:hover {
+
     filter: sepia(0%);
 
 }
 
-.logolg{
+.logolg {
     width: 100px;
 }
 
 
 
 
-li{
+li {
     list-style-type: none;
     display: inline-block;
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
-a{
+a {
     color: #2D00F7;
     text-transform: uppercase;
     font-weight: bold;
     text-decoration: none;
     margin: 40px;
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-size: 20px;
 }
 
-main{
+main {
     margin: 20px;
     padding: 5px;
-    font-family:'Rubik', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
-footer{
-    margin:40px;
-    font-family:'Rubik', sans-serif;
+footer {
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
 }
