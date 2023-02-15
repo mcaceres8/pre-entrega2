@@ -36,8 +36,8 @@ h1 {
 .bienvenido {
     color: black;
     text-align: center;
-    border: 4px solid black;
-    margin: 10px;
+    border: 1px solid outset;
+    margin: auto;
     padding: 0px;
     width: 200px;
     height: 50px;
@@ -63,17 +63,20 @@ h1 {
     margin: 20px;
     text-align: center;
 }
-
-.booksie {
-    filter: sepia(90%);
+/* TRANSICIONES */
+.titulo1 {
+    height: fit-content;
+    width: fit-content;
+    background-color: #CCFFFF;
+    transition: all 0.4s;
+    
 }
 
-.booksie:hover {
-
-    filter: sepia(0%);
-
+.titulo1:hover {
+    background-color: antiquewhite;
+    height: fit-content;
+    width: fit-content;
 }
-
 .logolg {
     width: 100px;
 }
