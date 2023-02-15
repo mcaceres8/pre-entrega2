@@ -10,28 +10,36 @@ body{
     background-color: #B9FAF8; 
     font-family:'Rubik', sans-serif;
     background-image: url("../img/pexels-rodion-kutsaiev-7911758.jpg");
+
 }
 
 .container{
-    margin: 0%;
+    justify-content: flex-start;
 }
+/* BOX MODELING */
 
-.text-center´{
-    margin: 0%;
+.contenedor { 
+    border: 4px black double;
+    margin: 10px;
+    padding: 0px;
+
 }
 h1{
     text-align: center;
     color: #006494;
-    margin: 50px; 
     font-family:'Rubik', sans-serif;
     font-size: 50px;
 }
 
-.border-bottom{
+.bienvenido{ 
     color: aqua;
+    text-align: center;
+    border: 4px none;
+    margin: 10px;
+    padding: 0px;
 }
 .titulo{
-    margin: 20px;
+    margin: 10px;
     text-align: center;
     color: lavenderblush;
 }
@@ -75,8 +83,8 @@ a{
 }
 
 main{
-    margin: 40px;
-    padding: 20px;
+    margin: 20px;
+    padding: 5px;
     font-family:'Rubik', sans-serif;
 }
 
