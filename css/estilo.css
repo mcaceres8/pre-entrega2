@@ -12,6 +12,13 @@ body{
     background-image: url("../img/pexels-rodion-kutsaiev-7911758.jpg");
 }
 
+.container{
+    margin: 0%;
+}
+
+.text-center´{
+    margin: 0%;
+}
 h1{
     text-align: center;
     color: #006494;
