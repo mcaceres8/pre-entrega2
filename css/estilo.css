@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+} 
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+    background-color: #B9FAF8; 
+    font-family:'Rubik', sans-serif;
+    background-image: url("../esp.jpg");
+}
+
+h1{
+    text-align: center;
+    color: #006494;
+    margin: 50px; 
+    font-family:'Rubik', sans-serif;
+    font-size: 50px;
+}
+
+.border-bottom{
+    color: aqua;
+}
+.titulo{
+    margin: 20px;
+    text-align: center;
+    color: lavenderblush;
+}
+
+.lead{
+    margin: 20px;
+    text-align: center;
+}
+
+.booksie{
+    filter: sepia(90%);
+}
+
+.booksie:hover{
+    
+    filter: sepia(0%);
+
+}
+
+
+
+
+li{
+    list-style-type: none;
+    display: inline-block;
+    font-family:'Rubik', sans-serif;
+}
+
+a{
+    color: #2D00F7;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 40px;
+    font-family:'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+main{
+    margin: 40px;
+    padding: 20px;
+    font-family:'Rubik', sans-serif;
+}
+
+footer{
+    margin:40px;
+    font-family:'Rubik', sans-serif;
+}
