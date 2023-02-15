@@ -9,7 +9,7 @@
 body{
     background-color: #B9FAF8; 
     font-family:'Rubik', sans-serif;
-    background-image: url("../esp.jpg");
+    background-image: url("../img/pexels-rodion-kutsaiev-7911758.jpg");
 }
 
 h1{
@@ -42,6 +42,10 @@ h1{
     
     filter: sepia(0%);
 
+}
+
+.logolg{
+    width: 100px;
 }
 
 
