@@ -26,12 +26,45 @@ body {
 
 }
 
+
+.superior {
+    height: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+    
+    
+}
+
+
+
+.superior p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    
+}
 h1 {
     text-align: center;
     color: #006494;
     font-family: 'Rubik', sans-serif;
     font-size: 50px;
 }
+
+.fondoHeader {
+    background-color: #FFF8F4 ;
+  
+}
+
+li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
 
 .bienvenido {
     color: black;
@@ -58,7 +91,14 @@ h1 {
     color: lavenderblush;
 }
 
-
+.col-3{
+    background-color: #CCFFFF;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    height: 40px;
+    width: 80px;
+}
 .lead {
     margin: 20px;
     text-align: center;
