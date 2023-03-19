@@ -148,6 +148,25 @@ main {
     font-family: 'Rubik', sans-serif;
 }
 
+.titMedias {
+    color: darkslateblue;
+
+}
+
+.texto {
+    color: indigo;
+}
+
+@media (max-width: 600px) {
+    .titMedias {
+        color: darkslateblue;
+
+    }
+
+    .texto {
+        color: indigo;
+    }
+}
 footer {
     margin: 40px;
     font-family: 'Rubik', sans-serif;
