@@ -1,0 +1,154 @@
+@import "fuentes";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body {
+    background: linear-gradient(to right, #cc95c0, #dbd4b4, #7aa1d2);
+    font-family: 'Rubik', sans-serif;
+    /* background-image: url("../img/pexels-rodion-kutsaiev-7911758.jpg"); */
+
+}
+
+.container {
+    justify-content: flex-start;
+}
+
+/* BOX MODELING */
+
+.contenedor {
+    border: 4px black double;
+    margin: 10px;
+    padding: 0px;
+
+}
+
+
+.superior {
+    height: 30px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #C6FFDD, #FBD786, #f7797d);
+    
+    
+}
+
+
+
+.superior p {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin-bottom: 0;
+    
+}
+h1 {
+    text-align: center;
+    color: #006494;
+    font-family: 'Rubik', sans-serif;
+    font-size: 50px;
+}
+
+.fondoHeader {
+    background-color: #FFF8F4 ;
+  
+}
+
+li a {
+    text-transform: uppercase;
+    font-weight: 900;
+    color: black;
+}
+
+
+.bienvenido {
+    color: black;
+    text-align: center;
+    border: 1px solid outset;
+    margin: auto;
+    padding: 0px;
+    width: 200px;
+    height: 50px;
+
+}
+
+/* GRADIENTE */
+
+.cajaA {
+    background: linear-gradient(to right, #CCCCFF, #6495ED);
+
+
+}
+
+.titulo {
+    margin: 10px;
+    text-align: center;
+    color: lavenderblush;
+}
+
+.col-3{
+    background-color: #CCFFFF;
+    color: black;
+    text-align: center;
+    font-size: 10px;
+    height: 40px;
+    width: 80px;
+}
+.lead {
+    margin: 20px;
+    text-align: center;
+}
+/* TRANSICIONES */
+.titulo1 {
+    height: fit-content;
+    width: fit-content;
+    background-color: #CCFFFF;
+    transition: all 0.4s;
+    
+}
+
+.titulo1:hover {
+    background-color: antiquewhite;
+    height: fit-content;
+    width: fit-content;
+}
+.logolg {
+    width: 100px;
+}
+
+
+
+
+li {
+    list-style-type: none;
+    display: inline-block;
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    color: #2D00F7;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 20px;
+}
+
+main {
+    margin: 20px;
+    padding: 5px;
+    font-family: 'Rubik', sans-serif;
+}
+
+footer {
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+}
